@@ -3,6 +3,14 @@
 Terminal UI for a Jira Cloud board, built with [Textual](https://textual.textualize.io/).
 Issue list on the left, rendered issue (description and comments) on the right.
 
+![Board: To Do column with the issue preview](docs/screenshots/board.png)
+
+| All but Done | Label filter |
+|---|---|
+| ![All but Done view](docs/screenshots/all-but-done.png) | ![Label filter dialog](docs/screenshots/label-filter.png) |
+
+_Screenshots use mock data._
+
 ## Run
 
 ```sh
