@@ -1,0 +1,19 @@
+[project]
+name = "jira-board"
+version = "0.1.0"
+description = "Terminal UI for a Jira board: column list, search, rank, status, labels, ADF preview, start work"
+authors = [
+    { name = "Michael Shpilt", email = "contact@obics.io" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28",
+    "textual>=8.2.8",
+]
+
+[project.scripts]
+jira-board = "jira_board:main"
+
+[build-system]
+requires = ["uv_build>=0.11.25,<0.12.0"]
+build-backend = "uv_build"
